@@ -1,0 +1,206 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(223, 123, 8);
+    
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(187, 52, 7);
+    padding: 15px;
+
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.logo {
+    margin-right: 12px;
+    color: rgb(207, 207, 222);
+    font-size: 56px;
+    font-weight: bold;
+    text-shadow: 12px 12px 12px rgb(5, 211, 26);
+    font-style: normal;
+    text-decoration-color: brown;
+    
+    
+
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 123px;
+    font-size: 23px;
+    font-weight: bold;
+    color:rgb(207, 207, 222) ;
+    position: relative;
+    transition-duration: 7s;
+
+}
+
+.list a:hover {
+    font-size: 34px;
+    color: rgb(12, 220, 99);
+    transform: rotate(90deg);
+}
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+   
+
+}
+
+span {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 23px;
+    font-style: italic;
+    margin-top: 156px;
+    margin-left: 34px;
+    color: darkblue;
+}
+
+.btn1 {
+    width: 78px;
+    height: 34px;
+    margin-left: 156px;
+    margin-top: 56px;
+    border-radius: 12px;
+    background-color: rgb(205, 87, 3);
+    color: rgb(210, 223, 223);
+}
+
+.btn1:hover {
+    background-color: rgb(9, 75, 207);
+    width: 88px;
+    height: 44px;
+    color: darkgrey;
+
+}
+
+hr {
+    margin-top: 80px;
+}
+.frend{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(206, 179, 143);
+    text-align: center;
+}
+.fre1{
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 90px;
+    text-align: center;
+}
+.frendpic{
+    width: 100%;
+    height: 567px;
+    background-color: rgb(206, 179, 143);
+    text-align: center;
+    margin-top: 34px;
+    font-size: 23px;
+}
+.place{
+        width: 100%;
+            height:123%;
+            background-color: rgb(206, 179, 143);
+            text-align: center;
+        }
+        
+        .fre1 {
+            font-size: 34px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 90px;
+
+        }
+.ft {
+    width: 100%;
+    height: 210px;
+    background-color: rgb(230, 53, 8);
+
+
+}
+
+.ftr {
+
+    margin-top: 34px;
+    display: flex;
+    flex: auto;
+    gap: 276px;
+    align-items: center;
+
+}
+
+.pftr {
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 23px;
+    align-items: center;
+    text-align: center;
+}
+
+.otec {
+    font-size: 34px;
+}
+
+.otec:hover {
+    color: rgb(232, 220, 220);
+    font-size: 45px;
+}
+.pic1{
+    width: 196px;
+    height: 186px;
+    border-radius: 45px;
+}
+
+.btn2 {
+    width: 78px;
+    height: 34px;
+    margin-left: 45px;
+    margin-top: 56px;
+    border-radius: 12px;
+    background-color: rgb(205, 87, 3);
+    color: rgb(210, 223, 223);
+}
+
+.btn2:hover {
+    background-color: rgb(9, 75, 207);
+    width: 88px;
+    height: 44px;
+    color: darkgrey;
+
+}
+.rh{
+    display: flex;
+    width: 196px;
+    height: 186px;
+    border-radius: 45px;
+    margin-top: 167px;
+    margin-left: 78px;
+    box-shadow: 6px 6px 6px red;
+}
+.main1 {
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+   display: flex;
+
+}

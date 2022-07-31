@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(78, 5, 5);
+            font-family: sans-serif;
+            text-transform: capitalize;
+        }
+        .conatainer{
+            width: 35rem;
+            height: 40rem;
+            border-radius: 50px;
+            box-shadow: 6px 6px 4px rgb(0,0,0.248),-6px,-6px,4px rgb(48,48,48);
+            display: flex;
+            justify-content: center;
+        }
+        form{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+            top:8rem;
+        }
+        .form-tittle{
+            position:relative;
+            background-color: rgb(39,39,39);
+            bottom:2rem;
+            display: flex;
+            font-size: 50px;
+            font-weight: 600;
+            color: rgh(245,24,101);
+            user-select: none;
+            text-shadow:6px 6px 4px rgba(10, 10,10,0,241);
+
+        }
+        .form-input{
+            position:relative;
+            margin: 20px;
+            width: 24res;
+            height: 4res;
+            padding: 0.20px;
+            background: rgb(39,39,39);;
+            border: none;
+            border-radius: 30px;
+            outline: none;
+            font-size: 22px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            color: rgb(245,24,,101);
+            box-shadow: 4px 4px 4px rgba(0,0,0.179);
+
+
+        }
+        .form-input::noz-placeholder{
+            color: rgh(79,79,79);
+        }
+        .form-input::placeholder{
+            color: rgh(79,79,79);
+        }
+        .form-input::focus{
+            box-shadow: -4px -4px 4px rgba(0,0,0.179),4px 4px 4px rgb(48,48,48);
+        }
+        bottom{
+            width: 150px;
+            height: 60px;
+            border: 0;
+            font-size: 25px;
+            font-weight: 600;
+            margin: 2.5rem;
+            border-radius: 30px;
+            color: rgh(245,24,101);
+            background-color: brown;
+            cursor: pointer;
+
+        }
+        bottom:active{
+            transform:scale(.9);
+        }
+        .forget-password{
+        font-size: 19px;
+        text-decoration: none;
+        color: #ffffff;
+        }
+        .forgrt-password:hover{
+            color:rgb(245,24,101);
+        }
+        button{
+            background-color: red;
+            color: black;
+            border: 5px;
+            border-color: black;
+
+        }
+        h2{
+            color: black;
+            text-align: center;
+            text-decoration: solid;
+            text-transform: uppercase;
+            border-block-start-style: dotted;
+            border-top-color: black;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+   
+    <div class="container">
+        <form action="https://www.instagram.com/p/CcQhcDoh1WF/?hl=en"><br>
+            <h2 class="form-tittle">login</h2>
+            <input class="form-input" type="text" placeholder="user name" required>
+            <input class="form-input" type="password" placeholder="password" required >
+            <button type ="submit">login</button>
+            <a href="#" class="Forget-password">forget password?</a>
+        </form>
+    </div>
+<script src="main.s" ></script>
+</body>

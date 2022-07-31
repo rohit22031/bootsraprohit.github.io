@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+background-color: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1));
+background-repeat: no-repeat;
+background-size: cover;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 90vh;
+}
+.aboutimg{
+    width: 100%;
+    height: 550px !important;
+}
+div h2{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-transform: uppercase; color: rgb(207, 207, 222);
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgb(5, 211, 26);
+    font-style: normal;
+    text-decoration-color: brown;
+}
+
+div p{
+    font-size: 25px !important;
+    font-weight: 200 !important;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black !important;
+    color: pink !important;
+    
+}
+section a{
+    border-radius: 4px;
+    color:gold !important;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: rgb(26, 1, 1) !important;
+    font-weight: bold;
+    transition: all .5s ease;
+    
+}
+.btn1{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: rgb(26, 1, 1);
+    font-weight: bold;
+    transition: all .5s ease;
+
+
+}
+.btn1:hover{
+    background: #00b894;
+    color: white;
+}
+@keyframes  changetext{
+    0%{content: "Prem Mandir";}
+    20%{content: "Mathura";}
+    35%{content:"Banarash";}
+    60%{content:"Lucknow"}
+    80%{content:"Kedarnath"}
+    100%{content:"Haridwar"}
+
+}
+.rh{
+    display: flex;
+    width: 396px;
+    height: 386px;
+    border-radius: 45px;
+    margin-top: 40px;
+    margin-left: 70px;
+    box-shadow: 6px 6px 6px rgb(22, 6, 6);
+    border-color: crimson;
+    border-top-color: black;
+}
